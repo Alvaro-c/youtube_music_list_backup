@@ -2,7 +2,7 @@ from ytmusicapi import YTMusic
 
 
 def main():
-    # YTMusic.setup(filepath='headers_auth.json')
+    # python3 main.py > output_file.csv
     yt = YTMusic("headers_auth.json")
 
     total_songs = yt.get_liked_songs()
